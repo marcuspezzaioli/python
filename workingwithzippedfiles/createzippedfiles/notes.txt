@@ -1,0 +1,7 @@
+Running this file will zip the files stored in the 'filestozip' directory and save them to the 'zippedfiles' directory.
+It has been set up to store 5 files in a zip file before creating a new zip file to store the next 5 files.
+
+Errors can easily occur when working with file paths, and one will get thrown here if the required folders can not be found.
+
+It is important therefore, that if you want to use this file without making any changes to it that you follow a similar structure to this. 
+There needs to be a filestozip and a zippedfiles directory inside of the same directory where createzippedfiles.py is based.
