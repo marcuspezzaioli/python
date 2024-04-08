@@ -1,0 +1,1 @@
+If saving the created text files to a different directory than the one the .py file is in, the directory must exist or an error will be thrown.
