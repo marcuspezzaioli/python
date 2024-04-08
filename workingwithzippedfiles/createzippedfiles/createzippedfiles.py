@@ -8,12 +8,9 @@ zipped_file_base_name = "\\zip"
 # The size of each file should be taken into consideration when doing this.
 files_to_include_in_one_zip_file = 5
 
-# Gets the current directory
-path = os.getcwd()
-
 # Gets the directories of the files to zip, and the directory we will store the zipped files in
-files_to_zip_path = path + "\\filestozip"
-store_zipped_files_path = path + "\\zippedfiles"
+files_to_zip_path = ".\\filestozip"
+store_zipped_files_path = ".\\zippedfiles"
 
 # Set name for first zipped files
 suffix = "1"
