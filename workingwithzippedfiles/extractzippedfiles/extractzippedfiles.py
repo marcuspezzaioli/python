@@ -3,8 +3,8 @@ from zipfile import ZipFile
 
 
 # Gets the directories of the zipped files, and the directory we will extract to.
-zipped_path = ".\zipped"
-extracted_path = ".\extracted"
+zipped_path = ".\\zipped"
+extracted_path = ".\\extracted"
 
 for file in os.listdir(zipped_path): # Loops through everything in the Zipped directory.
         with ZipFile(zipped_path + "/" + file, 'r') as zObject: 
