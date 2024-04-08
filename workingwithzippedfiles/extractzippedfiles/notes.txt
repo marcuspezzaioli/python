@@ -4,4 +4,6 @@ Errors can easily occur when working with file paths, and one will get thrown he
 
 It is important therefore, that if you want to use this file without making any changes to it that you follow a similar structure to this. There needs to be a zipped directory inside of the same directory where extractzippedfiles.py is based.
 
-You may notice that there is no 'extracted' directory, despite that path being set in the code.  Because this directory is not present one will be created when the python code finds its first files to extract. If you wanted to set up this directory ahead of running the code that would work fine, the files will be saved in the existing directory if it is provided correctly.
+You may notice that there is no 'extracted' directory, despite that path being set in the code.  
+Because this directory is not present one will be created when the python code finds its first files to extract. 
+If you wanted to set up this directory ahead of running the code that would work fine, the files will be saved in the existing directory if it is provided correctly.
