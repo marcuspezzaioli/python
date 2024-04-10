@@ -1,0 +1,2 @@
+The main thing to see with this file is how you can loop through every line in a text file with the command 'for line in file:'
+The rest of this file is just to give a simplified example of a possible use case.
